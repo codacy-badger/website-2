@@ -1,0 +1,145 @@
+body {
+    background: #121212;
+    background-color: rgb(42, 42, 42);
+    background-repeat: round;
+    background-position: center;
+    color: white; 
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    border: #121212;
+    --font: 30px;
+    --head: 40px;
+    --bio: 25px;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit;
+  }
+img {
+    border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 80px; 
+    max-height: 80px;
+    pointer-events: none;
+}
+.head {
+    font-size: 20px;
+    font-size: var(--head);
+
+}
+.bio{
+    font-size: 10px;
+    font-size: var(--bio);
+
+}
+.twitter{
+    color: #38A1F3;
+    font-size: var(--font);
+}
+.discord{
+    color: #7289da;
+    font-size: var(--font);
+}
+.mastodon{
+    color: #9baec8;
+    font-size: var(--font);
+}
+.github{
+    color: rgb(82, 82, 82);
+    font-size: var(--font);
+}
+.tumblr{
+    color: #35465c;
+    font-size: var(--font);
+}
+.insta{
+    color: rgb(63, 119, 224);
+    font-size: var(--font);
+}
+.reddit{
+    color: #ff4500;
+    font-size: var(--font);
+}
+.work{
+    color: rgb(99, 99, 99);
+    font-size: var(--font);
+    text-decoration: underline;
+  }
+.js{
+        color: #fcff5a;
+        font-size: var(--font);
+    }
+.html{
+            color: #e34f26;
+            font-size: var(--font);
+        }
+.css{
+        color: #0d39ff;
+        font-size: var(--font);
+    }
+
+.projects {
+    color: #7289da;
+    font-size: var(--font);
+}
+.projects a{
+    color: #3964ff;
+    font-size: var(--font);
+    text-decoration: underline;
+}
+  /* Border Stuff */
+#top, #bottom, #left, #right {
+	background: #505050;
+	position: fixed;
+	}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+		left: 0; right: 0;
+		height: 10px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }
+/* TASKBAR THIGNY */
+#TASKbottom {
+	background: linear-gradient(to right, #121212, #ffffff);
+	position: fixed;
+	}
+#TASKbottom {
+    left: 0; right: 0;
+    height: 20px;
+    }
+#TASKbottom { bottom: 0; }
+
+
+
+/* Phone shit */
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	#top, #bottom, #left, #right { display: none; }
+}
