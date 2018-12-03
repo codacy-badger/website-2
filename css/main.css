@@ -7,9 +7,9 @@ body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     border: #121212;
-    --font: 30px;
-    --head: 40px;
-    --bio: 25px;
+    --font; 30px;
+    --head; 40px;
+    --bio; 25px;
 }
 html {
     overflow: scroll;
